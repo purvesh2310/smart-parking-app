@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ParkingLotCallout" customModule="Parking_Grid_Technologies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fy5-qg-FTc" userLabel="CalloutView">
+                    <rect key="frame" x="0.0" y="0.0" width="140" height="130"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfF-ki-bzv">
+                            <rect key="frame" x="10" y="5" width="140" height="17"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDF-Qy-Wyp">
+                            <rect key="frame" x="10" y="27" width="140" height="17"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spots open:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ME-yn-Qrz">
+                            <rect key="frame" x="10" y="49" width="78" height="17"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rOr-oi-eYL">
+                            <rect key="frame" x="55" y="49" width="36" height="17"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zones:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMh-ZV-KbW">
+                            <rect key="frame" x="10" y="71" width="45" height="17"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDi-F3-kTG">
+                            <rect key="frame" x="16" y="93" width="80" height="30"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.29019607843137252" green="0.66666666666666663" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="igb-kK-wJu"/>
+                            </constraints>
+                            <state key="normal" title="View Lot">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnViewLotTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="UpI-RK-XFa"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFd-Qq-UeB">
+                            <rect key="frame" x="60" y="71" width="36" height="17"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMT-aM-ydj">
+                            <rect key="frame" x="96" y="49" width="36" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pot-do-NRQ" userLabel="facilityId">
+                            <rect key="frame" x="104" y="102" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="RDi-F3-kTG" firstAttribute="centerX" secondItem="Fy5-qg-FTc" secondAttribute="centerX" multiplier="0.8" id="0Gz-Rq-fea"/>
+                        <constraint firstItem="wDF-Qy-Wyp" firstAttribute="top" secondItem="jfF-ki-bzv" secondAttribute="bottom" constant="5" id="0Ut-fD-bYI"/>
+                        <constraint firstItem="wDF-Qy-Wyp" firstAttribute="leading" secondItem="jfF-ki-bzv" secondAttribute="leading" id="8mF-dd-l8y"/>
+                        <constraint firstItem="KMT-aM-ydj" firstAttribute="leading" secondItem="rOr-oi-eYL" secondAttribute="trailing" constant="3" id="9ng-Ce-J1s"/>
+                        <constraint firstItem="KMT-aM-ydj" firstAttribute="top" secondItem="wDF-Qy-Wyp" secondAttribute="bottom" constant="5" id="B9p-z1-7KR"/>
+                        <constraint firstItem="rOr-oi-eYL" firstAttribute="top" secondItem="wDF-Qy-Wyp" secondAttribute="bottom" constant="5" id="CtV-YS-V4V"/>
+                        <constraint firstItem="jfF-ki-bzv" firstAttribute="width" secondItem="Fy5-qg-FTc" secondAttribute="width" id="Cv3-eG-F5f"/>
+                        <constraint firstItem="jfF-ki-bzv" firstAttribute="top" secondItem="Fy5-qg-FTc" secondAttribute="top" constant="5" id="EQ0-5H-rO3"/>
+                        <constraint firstItem="GMh-ZV-KbW" firstAttribute="leading" secondItem="Fy5-qg-FTc" secondAttribute="leading" constant="10" id="OQC-8s-pwJ"/>
+                        <constraint firstItem="wDF-Qy-Wyp" firstAttribute="width" secondItem="Fy5-qg-FTc" secondAttribute="width" id="T3K-Jh-JbM"/>
+                        <constraint firstItem="GMh-ZV-KbW" firstAttribute="top" secondItem="5ME-yn-Qrz" secondAttribute="bottom" constant="5" id="YQR-EJ-DNq"/>
+                        <constraint firstItem="jfF-ki-bzv" firstAttribute="leading" secondItem="Fy5-qg-FTc" secondAttribute="leading" constant="10" id="ZLK-zA-Onn"/>
+                        <constraint firstItem="rOr-oi-eYL" firstAttribute="leading" secondItem="5ME-yn-Qrz" secondAttribute="trailing" constant="3" id="a2h-xg-3NP"/>
+                        <constraint firstItem="NFd-Qq-UeB" firstAttribute="top" secondItem="5ME-yn-Qrz" secondAttribute="bottom" constant="5" id="hnK-la-pUg"/>
+                        <constraint firstItem="5ME-yn-Qrz" firstAttribute="leading" secondItem="Fy5-qg-FTc" secondAttribute="leading" constant="10" id="keH-vx-5PF"/>
+                        <constraint firstItem="RDi-F3-kTG" firstAttribute="top" secondItem="GMh-ZV-KbW" secondAttribute="bottom" constant="5" id="oDp-e1-gu3"/>
+                        <constraint firstItem="5ME-yn-Qrz" firstAttribute="top" secondItem="wDF-Qy-Wyp" secondAttribute="bottom" constant="5" id="ovc-AT-cHo"/>
+                        <constraint firstItem="wDF-Qy-Wyp" firstAttribute="leading" secondItem="5ME-yn-Qrz" secondAttribute="leading" id="pOf-TG-hqz"/>
+                        <constraint firstAttribute="bottom" secondItem="RDi-F3-kTG" secondAttribute="bottom" constant="8" id="uzm-Zo-IbS"/>
+                        <constraint firstItem="5ME-yn-Qrz" firstAttribute="width" secondItem="Fy5-qg-FTc" secondAttribute="width" multiplier="0.4" id="ywA-mG-ye8"/>
+                        <constraint firstItem="NFd-Qq-UeB" firstAttribute="leading" secondItem="GMh-ZV-KbW" secondAttribute="trailing" constant="5" id="z4D-SL-VUb"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="pOf-TG-hqz"/>
+                            <exclude reference="ywA-mG-ye8"/>
+                            <exclude reference="uzm-Zo-IbS"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <animations/>
+            <constraints>
+                <constraint firstItem="Fy5-qg-FTc" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="Z77-Q9-INu"/>
+                <constraint firstAttribute="bottom" secondItem="Fy5-qg-FTc" secondAttribute="bottom" id="dNl-U8-N8p"/>
+                <constraint firstItem="Fy5-qg-FTc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fwx-fj-KIP"/>
+                <constraint firstAttribute="trailing" secondItem="Fy5-qg-FTc" secondAttribute="trailing" id="ipR-00-IoN"/>
+                <constraint firstItem="Fy5-qg-FTc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nmc-wS-pFz"/>
+                <constraint firstItem="Fy5-qg-FTc" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="pON-AU-dX5"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lblFacilityId" destination="pot-do-NRQ" id="jxg-Vx-IRP"/>
+                <outlet property="lblIsAvailable" destination="wDF-Qy-Wyp" id="0Mo-lB-sf9"/>
+                <outlet property="lblParkingLotTitle" destination="jfF-ki-bzv" id="PUl-WC-OlX"/>
+                <outlet property="lblSpotsOpen" destination="rOr-oi-eYL" id="OgD-bL-3PV"/>
+                <outlet property="lblTotalSpots" destination="KMT-aM-ydj" id="vnd-Nr-dkU"/>
+                <outlet property="lblZones" destination="NFd-Qq-UeB" id="Dkb-vk-uZX"/>
+                <outlet property="viewLotButton" destination="RDi-F3-kTG" id="Hvi-YU-cBc"/>
+            </connections>
+            <point key="canvasLocation" x="70" y="139.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>linkedIn</key>
+	<dict>
+		<key>linkedInKey</key>
+		<string>77o9oba6qotaka</string>
+		<key>linkedInSecret</key>
+		<string>C21IFSfGd1Ma4VnX</string>
+		<key>authorizationEndPoint</key>
+		<string>https://www.linkedin.com/uas/oauth2/authorization</string>
+		<key>accessTokenEndPoint</key>
+		<string>https://www.linkedin.com/uas/oauth2/accessToken</string>
+		<key>authorizedRedirectUrl</key>
+		<string>https://xyz.smartspot.linkedin.oauth/oauth</string>
+		<key>host</key>
+		<string>xyz.smartspot.linkedin.oauth</string>
+		<key>responseType</key>
+		<string>code</string>
+		<key>scope</key>
+		<string>r_emailaddress</string>
+	</dict>
+	<key>google</key>
+	<dict>
+		<key>clientId</key>
+		<string>986070088430-sln2lo9rgfm7pm6k7cfii05l9c4pe81d.apps.googleusercontent.com</string>
+		<key>reversedClientId</key>
+		<string>com.googleusercontent.apps.986070088430-sln2lo9rgfm7pm6k7cfii05l9c4pe81d</string>
+		<key>scope</key>
+		<string>https://www.googleapis.com/auth/plus.me</string>
+	</dict>
+</dict>
+</plist>
