@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>rateUsURL</key>
+	<string>https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=1074239927&amp;pageNumber=0&amp;sortOrdering=2&amp;type=Purple+Software&amp;mt=8</string>
+	<key>groupId</key>
+	<string>20229</string>
+	<key>networkProtocol</key>
+	<string>https</string>
+	<key>serverName</key>
+	<string>services.smartspot.xyz</string>
+	<key>companyId</key>
+	<string>20202</string>
+	<key>helpURL</key>
+	<string>http://support.smartspot.xyz</string>
+	<key>reportProblemURL</key>
+	<string>http://feedback.smartspot.xyz</string>
+	<key>defaultLocation</key>
+	<dict>
+		<key>defaultLatitude</key>
+		<string>32.7000</string>
+		<key>defaultLongitude</key>
+		<string>-86.7000</string>
+	</dict>
+</dict>
+</plist>
